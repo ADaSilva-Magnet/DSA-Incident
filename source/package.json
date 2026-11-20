@@ -1,0 +1,12 @@
+{
+  "name": "dsa-incident-scenario-visualizer",
+  "private": true,
+  "description": "Source for DSA-Incident-Scenario-Visualizer.html, a 3D visual aid for the Darlington Signals Archive (DSA) course scenario.",
+  "scripts": {
+    "build": "python3 build.py"
+  },
+  "devDependencies": {
+    "esbuild": "0.27.7",
+    "three": "0.186.1"
+  }
+}
